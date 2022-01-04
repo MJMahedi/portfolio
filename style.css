@@ -20,7 +20,9 @@
     }
     .flexible-container{
         display: flex;
-        margin-bottom: 150px;
+       
+        
+        
 
     }
     section{
@@ -48,10 +50,10 @@
         font-size: 30px;
        
         padding: 80px 80px;
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
         border-radius: 20px;
         border-color: yellow;
-        font-weight: 700;
+        font-weight: 50;
 
     }
     .top-banner{
@@ -79,13 +81,18 @@
 
     }
     .experience-area{
+        background-image: url(images/Color-Effects-Free-PNG-Image.png);
+        background-position-y: center;
+        padding-right: 5%;
+        
 
     }
     .experience-item{
-        width: 40%;
+        width: 500px;
         margin-left: 5%;
         margin-right: 5%;
         box-shadow: 10px 10px 10px tomato;
         border-radius: 10px;
         padding-left: 20px;
+        background-color: rgb(247, 162, 147);
     }
