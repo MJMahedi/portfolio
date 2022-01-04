@@ -1,6 +1,7 @@
     body{
         font-family: 'Teko', sans-serif;
         margin: 0%;
+        background-color: rgba(47, 80, 80, 0.247);
     }
     h1{
         font-size: 50px;
@@ -39,11 +40,26 @@
         padding-left: 1%;
     }
     .half-width{
-        width: 40%;
-        padding-left: 5%;
+        width: 50%;
+        padding-left: 5%; 
+        background-color: rgba(137, 216, 205, 0.548);
         
     }
-  
+    .half-width img{
+        width: 100%;
+        height: 100%;
+      
+    }
+    .2ndhalf-width{
+        width: 50%;
+        padding-left: 5%; 
+        background-color: rgba(137, 216, 205, 0.548);
+    }
+    .2ndhalf-width img{
+        width: 100%;
+        height: 100%;
+    }
+
     .link-button{
         text-decoration:none;
         background-image: linear-gradient(rgb(0, 238, 255) tomato);
@@ -62,22 +78,17 @@
         display: flex;
 
     }
-    .half-width img{
-        width: 140%;
-        height: 100%;
-  
-        
-    }
+   
+    
     .big-img{
-        padding-left: 80%;
+        position: relative;
         
     }
-
     .dream-big{
     background-image: url(images/transparent-preview.png);
   /*  background-repeat: no-repeat; */
-    background-position: left;
-    padding-left: 20%;
+    background-position: right;
+    
 
     }
     .experience-area{
