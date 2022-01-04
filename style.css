@@ -1,4 +1,48 @@
-body{
-    font-family: 'Teko', sans-serif;
-}
+    body{
+        font-family: 'Teko', sans-serif;
+        margin: 0%;
+    }
+    .head2{
+        font-size: 50px;
+        color: rgb(146, 122, 255);
+    }
+    #head1{
+        font-style: italic;
+        font-size: 70px;
+        
+    }
+    h2{
+        font-size: 40px;
+    }
+    section{
 
+        display: flex;
+        
+    }
+    p{
+        font-size: 30px;
+    }
+    .half-width{
+        
+        padding-left: 50px;
+    }
+  
+    .link-button{
+        text-decoration: none ;
+        font-size: 30px;
+        background-color: orange;
+        padding: 5px 20px;
+        color: whitesmoke;
+        border-radius: 5px;
+
+    }
+    .top-banner{
+        background-image: url(images/top-banner.png);
+        background-repeat: no-repeat;
+
+    }
+    .img{
+       width: 80%;
+       height: 50%;
+
+    }
