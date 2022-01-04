@@ -2,47 +2,90 @@
         font-family: 'Teko', sans-serif;
         margin: 0%;
     }
+    h1{
+        font-size: 50px;
+    }
     .head2{
         font-size: 50px;
         color: rgb(146, 122, 255);
     }
     #head1{
         font-style: italic;
-        font-size: 70px;
+        font-size: 60px;
         
     }
+
     h2{
         font-size: 40px;
+    }
+    .flexible-container{
+        display: flex;
+        margin-bottom: 150px;
+
     }
     section{
 
         display: flex;
         
+        margin-bottom: 100px;
     }
     p{
         font-size: 30px;
     }
+    .orange-color{
+        color: rgb(76, 0, 255);
+        padding-left: 1%;
+    }
     .half-width{
+        width: 40%;
+        padding-left: 5%;
         
-        padding-left: 50px;
     }
   
     .link-button{
-        text-decoration: none ;
+        text-decoration:none;
+        background-image: linear-gradient(rgb(0, 238, 255) tomato);
         font-size: 30px;
-        background-color: orange;
-        padding: 5px 20px;
-        color: whitesmoke;
-        border-radius: 5px;
+       
+        padding: 80px 80px;
+        color: rgb(0, 0, 0);
+        border-radius: 20px;
+        border-color: yellow;
+        font-weight: 700;
 
     }
     .top-banner{
-        background-image: url(images/top-banner.png);
-        background-repeat: no-repeat;
+        background-image: url(images/emovebg-preview.png);
+        background-position: center;
+        display: flex;
 
     }
-    .img{
-       width: 80%;
-       height: 50%;
+    .half-width img{
+        width: 140%;
+        height: 100%;
+  
+        
+    }
+    .big-img{
+        padding-left: 80%;
+        
+    }
 
+    .dream-big{
+    background-image: url(images/transparent-preview.png);
+  /*  background-repeat: no-repeat; */
+    background-position: left;
+    padding-left: 20%;
+
+    }
+    .experience-area{
+
+    }
+    .experience-item{
+        width: 40%;
+        margin-left: 5%;
+        margin-right: 5%;
+        box-shadow: 10px 10px 10px tomato;
+        border-radius: 10px;
+        padding-left: 20px;
     }
