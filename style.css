@@ -52,7 +52,7 @@
     }
     .2ndhalf-width{
         width: 50%;
-        padding-left: 5%; 
+        padding-right: 20%; 
         background-color: rgba(137, 216, 205, 0.548);
     }
     .2ndhalf-width img{
@@ -75,22 +75,18 @@
         background-image: url(images/emovebg-preview.png);
         background-position: center;
         display: flex;
-
     }
-   
-    
     .big-img{
         height: 90%;
-        width: 100%;
-        
-        size-adjust: 10px;
-        
-    }
+        width: 100%;    
+        size-adjust: 10px; 
+      }
     .dream-big{
     background-image: url(images/transparent-preview.png);
   /*  background-repeat: no-repeat; */
     background-position: right;
     background-color: rgb(192, 240, 82);
+    position: relative;
     
 
     }
@@ -114,14 +110,16 @@
         margin-right: 10px;
         box-shadow: 10px 10px 10px tomato;
         border-radius: 5px;
+
     }
    
     .experience-item{
-        width: 500px;
+        width: 350px;
+        height: 700px;
         margin-left: 5%;
         margin-right: 5%;
         box-shadow: 10px 10px 10px tomato;
         border-radius: 10px;
-        padding-left: 20px;
+        padding-left: 40px;
         background-color: rgba(168, 156, 87, 0.842);
     }
