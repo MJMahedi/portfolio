@@ -124,3 +124,16 @@
         padding-left: 40px;
         background-color: rgba(168, 156, 87, 0.842);
     }
+    .warning-follow  {
+        background-color: rgb(221, 245, 117);
+        padding-left: 50%;
+        padding-right: 40%;
+        text-shadow: rgb(192, 21, 15);
+    
+        
+    }
+    .warning{
+        
+       
+    }
+   
